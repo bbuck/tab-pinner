@@ -9,7 +9,10 @@
   },
   "commands": {
     "tab_pinner_pin_all_tabs": {
-      "description": "Pin all tabs in the current window."
+      "description": "Pin all tabs in the current window.",
+      "suggested_key": {
+        "default": "Alt+Shift+Z"
+      }
     },
     "tab_pinner_pin_unpin_tab": {
       "description": "Pin or unpin the current tab.",
