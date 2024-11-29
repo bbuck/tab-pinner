@@ -1,11 +1,10 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Tab Pinner (Keyboard Shortcuts)",
-  "description": "Pin or Unpin a tab easily from the keyboard.",
-  "version": "1.2"
+  "description": "Pin or Unpin a tab easily from the keyboard",
+  "version": "1.2.1",
   "background": {
-    "persistent": false,
-    "scripts": [ "tab_pinner.js" ]
+    "service_worker": "tab_pinner.js"
   },
   "commands": {
     "tab_pinner_pin_all_tabs": {
@@ -29,5 +28,5 @@
     "16": "pin_16.png",
     "48": "pin_48.png"
   },
-  "permissions": [],
+  "permissions": []
 }
